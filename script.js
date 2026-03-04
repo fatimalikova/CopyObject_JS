@@ -70,11 +70,22 @@ var p1 = new Person("lorem","ipsum",45);
 // console.log(student)
 
 
-let lorem = "helLo";
+let lorem = "helLo fatima necesen, fatima hardasan";
+const text ="A\uD83D B           ";
 // console.log(lorem.slice(0,-1))
 let array = ["banana","apple","snacks","orange","cherry","free"]
 // console.log(array.slice(0,3))
 // console.log(lorem.substring(2,3));
 // console.log(lorem.substr(-1));
 
-console.log(lorem.isWellFormed());
+// console.log(text.isWellFormed());
+// console.log(text.trim())
+// console.log(lorem.padStart(7,4))
+
+
+let change=lorem.replace(/fatima/g,"Leila");
+// /g olanda butun fatimlari evez edir
+console.log(change);
+
+let word = "fatia".split("");
+console.log(word.join(""));
