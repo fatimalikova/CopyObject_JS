@@ -3,7 +3,7 @@
 //     age: 30,
 //     isStudeent: true
 // };
-//serialization deserialization
+// // serialization deserialization
 // let jsonStr = JSON.stringify(user); //stringe cevirir
 // console.log(jsonStr[0])
 
@@ -46,6 +46,8 @@ class Person{
     }
 };
 var p1 = new Person("lorem","ipsum",45);
+
+
 // console.log(p1.getAge())
 
 
@@ -70,7 +72,7 @@ var p1 = new Person("lorem","ipsum",45);
 // console.log(student)
 
 
-let lorem = "helLo fatima necesen, fatima hardasan";
+let lorem = "helLo fatima necesen, fatima hardasan      ";
 const text ="A\uD83D B           ";
 // console.log(lorem.slice(0,-1))
 let array = ["banana","apple","snacks","orange","cherry","free"]
@@ -81,10 +83,11 @@ let array = ["banana","apple","snacks","orange","cherry","free"]
 // console.log(text.isWellFormed());
 // console.log(text.trim())
 // console.log(lorem.padStart(7,4))
+console.log(lorem.trimEnd())
 
 
 let change=lorem.replace(/fatima/g,"Leila");
-// /g olanda butun fatimlari evez edir
+// /g olanda butun fatimeleri evez edir
 console.log(change);
 
 let word = "fatia".split("");
